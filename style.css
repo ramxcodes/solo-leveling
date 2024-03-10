@@ -31,6 +31,20 @@ body {
     user-select: none;
 }
 
+body::-webkit-scrollbar {
+    width: 2px;          
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(104, 141, 241);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 204, 34);    
+    border-radius: 50%;       
+    border: 3px solid rgb(247, 210, 141);  
+  }
+
 #main {
     height: 100%;
     width: 100%;
